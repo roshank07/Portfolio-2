@@ -29,8 +29,8 @@ export default function Skills() {
           My Skills
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <div className="bg-white shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
-        <div>
+        <div className="bg-pink-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+        <div className="font-mono">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Language
               </h3>
@@ -58,11 +58,11 @@ export default function Skills() {
                 <BsFiletypeSql className="text-blue-500 w-6 h-6 mr-2 inline-block" />
                 SQL
               </p>
-              </div>
-          </div>
+        </div>
+        </div>
           {/* Frameworks/Libraries */}
-          <div className="bg-white shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
-            <div>
+          <div className="bg-purple-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+            <div className="font-mono">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Frameworks/Libraries
               </h3>
@@ -78,8 +78,8 @@ export default function Skills() {
             </div>
           </div>
           {/* Databases/Cloud */}
-          <div className="bg-white shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
-            <div>
+          <div className="bg-indigo-500 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+            <div className="font-mono">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Databases/Cloud
               </h3>
@@ -102,8 +102,8 @@ export default function Skills() {
             </div>
           </div>
           {/* Devops */}
-          <div className="bg-white shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
-            <div>
+          <div className="bg-green-500 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+            <div className="font-mono">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Devops
               </h3>

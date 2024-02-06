@@ -1,16 +1,16 @@
 import React from 'react';
 import CallToAction from './CallToAction';
-import Me from '../../assets/me.png';
+import Me from '../../assets/portfolio_me.png';
 import HeaderSocials from './HeaderSocials';
 
 export default function Header() {
   return (
-    <header id='home' className='bg-blue-400 text-white'>
+    <header id='home' className='bg-blue-400'>
       <div className='mx-auto px-4 py-5 sm:py-10 flex flex-col items-center'>
-        <h5 className='text-sm font-semibold text-center'>Hello I'am</h5>
-        <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-2 text-center'>Roshan K Purbey</h1>
-        <h5 className='text-lg mt-2'>Fullstack Developer</h5>
-        <CallToAction />
+        <h2 className='font-semibold text-xl text-center'>Hello I'am</h2>
+        <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-2 text-center'>Roshan Purbey</h1>
+        <h5 className='text-lg mt-2'>Full stack Developer</h5>
+        <CallToAction />  
       </div>
         <div className='grid grid-cols-3'>
           <div className="mx-auto my-auto"><HeaderSocials/></div>

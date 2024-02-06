@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      serif: ['Times New Roman', 'serif'],
+      mono:['Monaco','mono'],
+      
+    }
   },
   plugins: [],
 }
