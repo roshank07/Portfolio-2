@@ -27,21 +27,21 @@ export default function Contacts() {
   };
 
   return (
-    <section id="contacts" className="py-16 bg-gray-100">
+    <section id="contacts" className="py-16">
       <div className="container mx-auto">
-        <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-8 text-center">
+        <h2 className="text-3xl lg:text-4xl font-bold text-white mb-8 text-center">
           Contact
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Contact Info */}
-          <div className="bg-white shadow-md rounded-lg p-6">
+          <div className="shadow-md rounded-lg p-6 bg-gray-300">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Contact Information</h3>
             <p className="text-gray-600 mb-2"><MdOutlineMailOutline className="text-gray-500 mr-2 w-6 h-6  inline-block"/>Email: roshann.purbey@gmail.com</p>
             <p className="text-gray-600 mb-2"><MdOutlineWhatsapp className='text-green-400 mr-2 w-6 h-6 inline-block'/>Phone: +916261779331</p>
-            <p className="text-gray-600 mb-2"><CiLinkedin className='text-blue-400 mr-2 w-6 h-6 inline-block'/> LinkedIn: <a href="https://www.linkedin.com/in/roshan-purbey-824783168/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Roshan Purbey</a></p>
+            <p className="text-gray-600 mb-2"><CiLinkedin className='text-blue-400 mr-2 w-6 h-6 inline-block'/>LinkedIn: <a href="https://www.linkedin.com/in/roshan-purbey-824783168/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Roshan Purbey</a></p>
           </div>
           {/* Contact Form */}
-          <div className="bg-white shadow-md rounded-lg p-6">
+          <div className="bg-gray-300 shadow-md rounded-lg p-6">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Send a Message</h3>
             <form onSubmit={handleSubmit}>
               <div className="mb-4">

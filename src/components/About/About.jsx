@@ -5,10 +5,10 @@ import { GrProjects } from "react-icons/gr";
 
 export default function About() {
   return (
-    <section id="about" className="py-16 bg-indigo-900">
+    <section id="about" className="py-16 ">
       <div className="container mx-auto">
-        <h5 className="text-lg text-gray-600 text-center">Get to Know me</h5>
-        <h2 className="text-xl sm:text-3xl font-bold text-gray-800 mb-8 text-center">
+        <h5 className="text-sm text-white text-center">Get to Know me</h5>
+        <h2 className="text-xl sm:text-3xl font-bold text-white mb-8 text-center">
           About me
         </h2>
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between">
@@ -22,16 +22,16 @@ export default function About() {
           </div>
           <div className="w-full lg:w-1/2 lg:pl-8">
             <div className="about__cards mb-8 flex justify-between ml-2 sm:ml-0 font-mono">
-              <div className="bg-gray-300 flex items-center pb-3 pl-2 pr-2 border rounded-lg border-black hover:scale-105 hover:bg-white transition duration-300">
+              <div className="bg-blue-200 flex items-center pb-3 pl-2 pr-2 border rounded-lg border-black hover:scale-105 hover:bg-white transition duration-300">
                 <FiAward className="about__icon text-gray-800 mr-2 text-xl" />
                 <div>
-                  <h5 className="text-gray-800 font-semibold mt-5 text-xl">
+                  <h5 className="text-gray-800 font-semibold mt-5 pr-1 text-xl">
                     Experience
                   </h5>
                   <small className="text-gray-600 text-lg pl-2">2+ Years</small>
                 </div>
               </div>
-              <div className="bg-gray-300 flex items-center pb-3 pl-4 pr-4 border rounded-lg border-black hover:scale-105 hover:bg-white transition duration-300">
+              <div className="bg-blue-200 flex items-center pb-3 pl-4 pr-4 border rounded-lg border-black hover:scale-105 hover:bg-white transition duration-300">
                 <GrProjects className="about__icon text-gray-800 mr-2 text-xl" />
                 <div>
                   <h5 className="text-gray-800 font-semibold mt-5 text-xl">
@@ -41,7 +41,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <p className="text-gray-700 mb-6 ml-2 sm:ml-0 font-serif ">
+            <p className="text-gray-100 mb-6 ml-2 sm:ml-0 font-serif ">
               I'm Roshan K Purbey, a graduate of Electrical Engineering from IIT
               Bhilai. My fascination with technology led me to pursue a career
               in software engineering. With five years of programming
@@ -55,7 +55,7 @@ export default function About() {
               drive innovation and make a meaningful impact in the tech
               industry.
             </p>
-            <a href="#contacts" className="btn btn-primary">
+            <a href="#contacts" className="text-green-300">
               Let's Talk
             </a>
           </div>

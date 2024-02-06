@@ -3,10 +3,10 @@ import Me from "../../assets/Work.jpg";
 
 export default function Work() {
   return (
-    <section id="work" className="py-16 bg-indigo-900">
+    <section id="work" className="py-16 ">
       <div className="container mx-auto">
-        <h5 className="text-lg text-gray-600 text-center">My Professional</h5>
-        <h2 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-8 text-center">
+        <h5 className="text-lg text-white text-center">My Professional</h5>
+        <h2 className="text-2xl lg:text-3xl font-bold text-white mb-8 text-center">
           Experience
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-10 sm:p-2">
@@ -18,11 +18,11 @@ export default function Work() {
               style={{ maxHeight: "400px" }}
             />
           </div>
-          <div className="px-2 border border-blue-500  rounded-lg hover:scale-105 transition-transform-300">
+          <div className="px-2 border bg-slate-200 border-blue-300 text-black rounded-lg hover:scale-105 transition-transform-300">
             <h3 className="text-xl font-semibold mb-2">
               Deeplogic Tech Pvt Ltd, Remote, India
             </h3>
-            <p className="text-gray-600 mb-4">
+            <p className="text-gray-600 mb-4 text-xs">
               June 2021 - Oct 2023
             </p>
             <ul className="list-disc pl-6 font-serif">

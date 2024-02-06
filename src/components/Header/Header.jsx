@@ -5,8 +5,8 @@ import HeaderSocials from './HeaderSocials';
 
 export default function Header() {
   return (
-    <header id='home' className='bg-indigo-900'>
-      <div className='mx-auto px-4 py-5 sm:py-10 flex flex-col items-center'>
+    <header id='home' className=''>
+      <div className='mx-auto px-4 py-5 sm:py-10 flex flex-col items-center text-white'>
         <h2 className='font-semibold text-xl text-center'>Hello I'am</h2>
         <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-2 text-center'>Roshan Purbey</h1>
         <h5 className='text-lg mt-2'>Full stack Developer</h5>

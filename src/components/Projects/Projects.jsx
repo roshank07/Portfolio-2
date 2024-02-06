@@ -4,14 +4,14 @@ import Project2Image from "../../assets/portfolio1.jpg"; // Import your project 
 
 export default function Portfolio() {
   return (
-    <section className="py-8 bg-indigo-900" id="projects">
+    <section className="py-8 " id="projects">
       <div className="container mx-auto">
-        <h2 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-8 text-center">
+        <h2 className="text-2xl lg:text-3xl font-bold text-white mb-8 text-center">
           My Projects
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 p-10 sm:p-2">
           {/* Project 1 */}
-          <div className="bg-red-500  border border-gray-500 shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 hover:bg-gray-100">
+          <div className="bg-red-600  border border-gray-500 shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 hover:bg-gray-100">
             <div className="">
               <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-1 lg:mb-2">
                 MERN Blog
@@ -40,7 +40,7 @@ export default function Portfolio() {
             </div>
           </div>
           {/* Project 2 */}
-          <div className="bg-green-500 border border-gray-500 shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 hover:bg-gray-100">
+          <div className="bg-green-600 border border-gray-500 shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 hover:bg-gray-100">
             <div className="">
               <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-1 lg:mb-2">
                 Interest Calculator
@@ -69,7 +69,7 @@ export default function Portfolio() {
             </div>
           </div>
           {/* Project 3 */}
-          <div className="bg-yellow-500  border border-gray-500 shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 hover:bg-gray-100">
+          <div className="bg-yellow-600  border border-gray-500 shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 hover:bg-gray-100">
             <div className="">
              
               <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-1 lg:mb-2">
@@ -99,7 +99,7 @@ export default function Portfolio() {
             </div>
           </div>
           {/* Project 4 */}
-          <div className="bg-blue-500 border border-gray-500 shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 hover:bg-gray-100">
+          <div className="bg-blue-600 border border-gray-500 shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 hover:bg-gray-100">
             <div className="">
               <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-1 lg:mb-2">
                 Interest Calculator
