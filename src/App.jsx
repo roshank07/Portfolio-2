@@ -10,7 +10,7 @@ import Skills from './components/Skills/Skills';
 
 function App() {
   return (
-    <>
+    <div className="font-sans font-medium">
     <Header/>
     <Nav/>
     <About/>
@@ -20,7 +20,7 @@ function App() {
     <Education/>
     <Contacts/>
     <Footer/>
-    </>
+    </div>
   );
 }
 
