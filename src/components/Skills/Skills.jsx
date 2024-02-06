@@ -23,7 +23,7 @@ import { BsFiletypeSql } from "react-icons/bs";
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-16 bg-gray-100">
+    <section id="skills" className="py-16 bg-indigo-900">
       <div className="container mx-auto">
         <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-8 text-center">
           My Skills

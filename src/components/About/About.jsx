@@ -5,7 +5,7 @@ import { GrProjects } from "react-icons/gr";
 
 export default function About() {
   return (
-    <section id="about" className="py-16 bg-gray-100">
+    <section id="about" className="py-16 bg-indigo-900">
       <div className="container mx-auto">
         <h5 className="text-lg text-gray-600 text-center">Get to Know me</h5>
         <h2 className="text-xl sm:text-3xl font-bold text-gray-800 mb-8 text-center">
