@@ -1,92 +1,130 @@
 import React from "react";
-import { BsFillPatchCheckFill } from "react-icons/bs";
+import {
+  SiCplusplus,
+  SiJavascript,
+  SiPython,
+  SiHtml5,
+  SiCss3,
+  SiMysql,
+  SiMongodb,
+  SiGooglecloud,
+  SiReact,
+  SiExpress,
+  SiKubernetes,
+  SiDocker,
+  SiGithub,
+  SiGit,
+  SiPrometheus,
+  SiSinglestore
+} from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
+import { BsFiletypeSql } from "react-icons/bs";
+
 
 export default function Skills() {
   return (
-    <section id="skills">
-      <h5>What Skills I have </h5>
-      <h2>Skills</h2>
-      <div className="container skills__container">
-        {/* Frontend */}
-        <div className="skills__frontend">
-          <h3>FrontEnd Development</h3>
-          <div className="skills__content">
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons' />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+    <section id="skills" className="py-16 bg-gray-100">
+      <div className="container mx-auto">
+        <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-8 text-center">
+          My Skills
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="bg-white shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+        <div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                Language
+              </h3>
+              <p>
+                <SiCplusplus className="text-red-500  w-6 h-6 mr-2 inline-block" />
+                C++
+              </p>
+              <p>
+                <SiJavascript className="text-yellow-500 w-6 h-6 mr-2 inline-block" />
+                JavaScript
+              </p>
+              <p>
+                <SiPython className="text-blue-500 w-6 h-6 mr-2 inline-block" />
+                Python
+              </p>
+              <p>
+                <SiHtml5 className="text-red-500 w-6 h-6 mr-2 inline-block" />
+                HTML
+              </p>
+              <p>
+                <SiCss3 className="text-blue-500 w-6 h-6 mr-2 inline-block" />
+                CSS
+              </p>
+              <p>
+                <BsFiletypeSql className="text-blue-500 w-6 h-6 mr-2 inline-block" />
+                SQL
+              </p>
               </div>
-            </article>
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons'  />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons' />
-              <div>
-                <h4>Javascripts</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons' />
-              <div>
-                <h4>TailWind Css</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons' />
-              <div>
-                <h4>React Js</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
           </div>
-        </div>
-        {/* Backend */}
-        <div className="skills__backend">
-          <h3>Backend Development</h3>
-          <div className="skills__content">
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons' />
-              <div>
-                <h4>Nodejs</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons' />
-              <div>
-                <h4>C++</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons' />
-              <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons' />
-              <div>
-                <h4>Singlestore</h4>
-                <small className="text-light">Expereinced</small>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsFillPatchCheckFill className='skills__details-icons' />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
+          {/* Frameworks/Libraries */}
+          <div className="bg-white shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+            <div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                Frameworks/Libraries
+              </h3>
+              <p>
+                <SiReact className="text-blue-500 w-6 h-6 mr-2 inline-block" />
+                React.js
+              </p>
+              <p>
+                <SiExpress className="text-blue-500 w-6 h-6 mr-2 inline-block" />
+                Express.js
+              </p>
+              <p><DiNodejs className="text-green-500 w-6 h-6 mr-2 inline-block"/>Node.js</p>
+            </div>
+          </div>
+          {/* Databases/Cloud */}
+          <div className="bg-white shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+            <div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                Databases/Cloud
+              </h3>
+              <p>
+                <SiMysql className="text-blue-500 w-6 h-6 mr-2 inline-block" />
+                MySQL
+              </p>
+              <p>
+                <SiMongodb className="text-green-500 w-6 h-6 mr-2 inline-block" />
+                MongoDB
+              </p>
+              <p>
+                <SiGooglecloud className="text-blue-500 w-6 h-6 mr-2 inline-block" />
+                Google Cloud Platform
+              </p>
+              <p>
+                <SiSinglestore className="text-purple-500 w-6 h-6 mr-2 inline-block" />
+                Singlestore
+              </p>
+            </div>
+          </div>
+          {/* Devops */}
+          <div className="bg-white shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+            <div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                Devops
+              </h3>
+              <p><SiKubernetes className="text-blue-500 w-6 h-6 mr-2 inline-block" />Kubernetes</p>
+              <p>
+                <SiDocker className="text-blue-500 w-6 h-6 mr-2 inline-block" />
+                Docker
+              </p>
+              <p>
+                <SiGit className="text-red-500 w-6 h-6 mr-2 inline-block" />
+                Git
+              </p>
+              <p>
+                <SiGithub className="text-gray-500 w-6 h-6 mr-2 inline-block" />
+                Github
+              </p>
+              <p>
+                <SiPrometheus className="text-red-500 w-6 h-6 mr-2 inline-block" />
+                Prometheus
+              </p>
+            </div>
           </div>
         </div>
       </div>
