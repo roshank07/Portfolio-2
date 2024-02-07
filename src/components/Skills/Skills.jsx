@@ -28,8 +28,9 @@ export default function Skills() {
         <h2 className="text-3xl lg:text-4xl font-bold text-white mb-8 text-center">
           My Skills
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-black">
-        <div className="bg-pink-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+        <div>
+        <div className="grid grid-cols-2 lg:grid-cols-4 text-black">
+        <div className="bg-indigo-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
         <div className="font-mono">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Language
@@ -61,7 +62,7 @@ export default function Skills() {
         </div>
         </div>
           {/* Frameworks/Libraries */}
-          <div className="bg-purple-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+          <div className="bg-indigo-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
             <div className="font-mono">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Frameworks/Libraries
@@ -78,7 +79,7 @@ export default function Skills() {
             </div>
           </div>
           {/* Databases/Cloud */}
-          <div className="bg-yellow-500 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+          <div className="bg-indigo-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
             <div className="font-mono">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Databases/Cloud
@@ -102,7 +103,7 @@ export default function Skills() {
             </div>
           </div>
           {/* Devops */}
-          <div className="bg-green-500 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+          <div className="bg-indigo-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
             <div className="font-mono">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Devops
@@ -126,6 +127,7 @@ export default function Skills() {
               </p>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>

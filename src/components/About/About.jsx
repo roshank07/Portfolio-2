@@ -22,26 +22,26 @@ export default function About() {
           </div>
           <div className="w-full lg:w-1/2 lg:pl-8">
             <div className="about__cards mb-8 flex justify-between ml-2 sm:ml-0 font-mono">
-              <div className="bg-blue-200 flex items-center pb-3 pl-2 pr-2 border rounded-lg border-black hover:scale-105 hover:bg-white transition duration-300">
+              <div className="bg-sky-500 flex items-center pb-3 pl-2 pr-2 border rounded-lg border-black hover:scale-105 hover:bg-white transition duration-300">
                 <FiAward className="about__icon text-gray-800 mr-2 text-xl" />
                 <div>
-                  <h5 className="text-gray-800 font-semibold mt-5 pr-1 text-xl">
+                  <h5 className="text-gray-300 font-semibold mt-5 pr-1 text-xl">
                     Experience
                   </h5>
                   <small className="text-gray-600 text-lg pl-2">2+ Years</small>
                 </div>
               </div>
-              <div className="bg-blue-200 flex items-center pb-3 pl-4 pr-4 border rounded-lg border-black hover:scale-105 hover:bg-white transition duration-300">
+              <div className="bg-sky-500 flex items-center pb-3 pl-4 pr-4 border rounded-lg border-black hover:scale-105 hover:bg-white transition duration-300">
                 <GrProjects className="about__icon text-gray-800 mr-2 text-xl" />
                 <div>
-                  <h5 className="text-gray-800 font-semibold mt-5 text-xl">
+                  <h5 className="text-gray-300 font-semibold mt-5 text-xl">
                     Projects
                   </h5>
                   <small className="text-gray-600 text-lg pl-2">10+</small>
                 </div>
               </div>
             </div>
-            <p className="text-gray-100 mb-6 ml-2 sm:ml-0 font-serif ">
+            <p className="text-gray-100 mb-6 ml-2 sm:ml-0 sm:text-sm text-xs">
               I'm Roshan K Purbey, a graduate of Electrical Engineering from IIT
               Bhilai. My fascination with technology led me to pursue a career
               in software engineering. With five years of programming
