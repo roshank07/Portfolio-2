@@ -9,7 +9,7 @@ import resume from "../../assets/Roshan_resume_feb.pdf";
 export default function Header() {
   return (
     <header id="home" className="">
-      <div className="flex flex-col justify-center mx-auto px-2 w-full text-gray-200">
+      <div className="flex flex-col justify-center mx-auto px-2 mb-8 w-full text-gray-200">
         <h2 className="font-semibold text-xl text-center">Hello I'am</h2>
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-2 text-center">
           Roshan Purbey
@@ -58,8 +58,23 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className="px-2 border bg-slate-800 text-gray-200 rounded-lg hover:scale-105 transition-transform-300"></div>
-        <a href="#contacts" className="text-green-300 flex justify-center">
+        <div className="p-3 mx-auto border border-transparent bg-slate-800 text-gray-200 rounded-lg hover:scale-105 transition-transform-300">
+        <div className="text-gray-100 sm:text-sm text-xs flex justify-center mb-4">
+              I'm Roshan K Purbey, a graduate of Electrical Engineering from IIT
+              Bhilai. My fascination with technology<br/> led me to pursue a career
+              in software engineering. With five years of programming
+              experience(College+Work),<br/> I embarked on a journey with a startup, honing my
+              skills across various domains. From optimizing <br/> backend
+              technologies like Singlesore and Node.js to delving into DevOps
+              with Kubernetes, Docker,<br/> Git, and Prometheus, I've embraced every
+              opportunity to expand my expertise. 
+              <br/><br/>
+              Now, I'm eager to transition into full-stack development, leveraging my diverse skill set to
+              drive innovation and<br/> make a meaningful impact in the tech
+              industry.
+            </div>
+        </div>
+        <a href="#contacts" className="text-green-300 flex justify-center mt-2">
           Let's Talk
         </a>
       </div>

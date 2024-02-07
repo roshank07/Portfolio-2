@@ -20,7 +20,7 @@ export default function Portfolio() {
               This project embodies a long-standing aspiration of mine—an endeavor through which I aim to impart my insights and experiences to a broader audience. This meticulously crafted responsive website represents the quintessential platform for individuals keen on engaging in daily blogging endeavors.
               </p>
             </div>
-            <div className="flex justify-between text-sm font-mono text-blue-800">
+            <div className="flex justify-between text-sm font-mono text-gray-300">
               <a
                 href="https://github.com/roshank07/My_blog_website-MERN"
                 target="_blank"
@@ -49,36 +49,7 @@ export default function Portfolio() {
               The Interest Calculator web app revolutionizes financial planning with its user-friendly interface and precise calculations. Seamlessly combining React and Node.js, it simplifies interest rate computations for investments, loans, and savings. Empowering users with efficiency and accuracy, it's the ultimate tool for informed financial decision-making.
               </p>
             </div>
-            <div className="flex justify-between text-sm font-mono text-blue-800">
-              <a
-                href="https://github.com/roshank07/Interest-calculator-frontend"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                GitHub Repo
-              </a>
-              <a
-                href="https://roshan-interest-calculator.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-          {/* Project 3 */}
-          <div className="bg-slate-800 border border-violet shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 ">
-            <div className="">
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-200 mb-1 lg:mb-2">
-                Interest Calculator
-              </h3>
-              <p className="text-sm lg:text-base text-gray-400  mb-2">
-              The Interest Calculator web app revolutionizes financial planning with its user-friendly interface and precise calculations. Seamlessly combining React and Node.js, it simplifies interest rate computations for investments, loans, and savings. Empowering users with efficiency and accuracy, it's the ultimate tool for informed financial decision-making.
-              </p>
-            </div>
-            <div className="flex justify-between text-sm font-mono text-blue-800">
+            <div className="flex justify-between text-sm font-mono text-gray-300">
               <a
                 href="https://github.com/roshank07/MERN-Interest-App"
                 target="_blank"
@@ -97,19 +68,19 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-          {/* Project 4 */}
+          {/* Project 3 */}
           <div className="bg-slate-800 border border-violet shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 ">
             <div className="">
               <h3 className="text-lg lg:text-xl font-semibold text-gray-200 mb-1 lg:mb-2">
-                Interest Calculator
+                Shopping App
               </h3>
               <p className="text-sm lg:text-base text-gray-400  mb-2">
-              The Interest Calculator web app revolutionizes financial planning with its user-friendly interface and precise calculations. Seamlessly combining React and Node.js, it simplifies interest rate computations for investments, loans, and savings. Empowering users with efficiency and accuracy, it's the ultimate tool for informed financial decision-making.
+              Discover My Shopping App, your go-to app for seamless online shopping. Register, sign in securely, and explore a wide range of products. With integrated Razorpay API, transactions are fast and secure. When you're done, sign out effortlessly. Elevate your shopping experience with Very Shopping. Download now and shop with ease!
               </p>
             </div>
-            <div className="flex justify-between text-sm font-mono text-blue-800">
+            <div className="flex justify-between text-sm font-mono text-gray-300">
               <a
-                href="https://github.com/roshank07/Interest-calculator-frontend"
+                href="https://github.com/roshank07/Shopping_App"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
@@ -117,7 +88,36 @@ export default function Portfolio() {
                 GitHub Repo
               </a>
               <a
-                href="https://roshan-interest-calculator.netlify.app/"
+                href="https://shopping-app-g3ow.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+          {/* Project 4 */}
+          <div className="bg-slate-800 border border-violet shadow-md  p-6 flex flex-col justify-between hover:scale-105 transition duration-300 ">
+            <div className="">
+              <h3 className="text-lg lg:text-xl font-semibold text-gray-200 mb-1 lg:mb-2">
+                Landing Page
+              </h3>
+              <p className="text-sm lg:text-base text-gray-400  mb-2">
+              Utilize this captivating landing page to entice customers to your ecommerce platform. Perfect for web advertisements, it showcases your offerings, highlights key features, and invites visitors to explore and engage with your online store. Elevate your marketing strategy and drive sales with this dynamic landing page.
+              </p>
+            </div>
+            <div className="flex justify-between text-sm font-mono text-gray-300">
+              <a
+                href="https://github.com/roshank07/landing-page"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                GitHub Repo
+              </a>
+              <a
+                href="https://jolly-moxie-4a059e.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"

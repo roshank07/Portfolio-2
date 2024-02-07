@@ -30,6 +30,7 @@ export default function Skills() {
         </h2>
         <div>
         <div className="grid grid-cols-2 lg:grid-cols-4 text-gray-400 p-2 sm:p-0">
+          {/* Languages */}
         <div className="bg-slate-800 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
         <div className="font-mono">
               <h3 className="text-sm sm:text-xl font-semibold text-gray-200 mb-2 inline-block">
