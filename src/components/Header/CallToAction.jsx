@@ -3,7 +3,7 @@ import resume from "../../assets/Roshan_resume_feb.pdf";
 
 export default function CallToAction() {
   return (
-    <div className="flex justify-center mt-8 text-xs md:text-sm text-blue-900 ">
+    <div className="flex justify-center mt-8 text-xs md:text-sm text-gray-500 ">
       <a
         href={resume}
         target="_blank"

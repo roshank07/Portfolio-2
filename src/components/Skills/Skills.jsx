@@ -29,10 +29,10 @@ export default function Skills() {
           My Skills
         </h2>
         <div>
-        <div className="grid grid-cols-2 lg:grid-cols-4 text-black">
-        <div className="bg-indigo-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+        <div className="grid grid-cols-2 lg:grid-cols-4 text-gray-400">
+        <div className="bg-slate-800 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
         <div className="font-mono">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-gray-200 mb-2">
                 Language
               </h3>
               <p>
@@ -62,9 +62,9 @@ export default function Skills() {
         </div>
         </div>
           {/* Frameworks/Libraries */}
-          <div className="bg-indigo-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+          <div className="bg-slate-800 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
             <div className="font-mono">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-gray-200 mb-2">
                 Frameworks/Libraries
               </h3>
               <p>
@@ -79,9 +79,9 @@ export default function Skills() {
             </div>
           </div>
           {/* Databases/Cloud */}
-          <div className="bg-indigo-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+          <div className="bg-slate-800  shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
             <div className="font-mono">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-gray-200 mb-2">
                 Databases/Cloud
               </h3>
               <p>
@@ -103,9 +103,9 @@ export default function Skills() {
             </div>
           </div>
           {/* Devops */}
-          <div className="bg-indigo-400 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
+          <div className="bg-slate-800  shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
             <div className="font-mono">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-gray-200 mb-2">
                 Devops
               </h3>
               <p><SiKubernetes className="text-blue-500 w-6 h-6 mr-2 inline-block" />Kubernetes</p>

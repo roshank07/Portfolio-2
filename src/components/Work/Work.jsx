@@ -9,23 +9,15 @@ export default function Work() {
         <h2 className="text-2xl lg:text-3xl font-bold text-white mb-8 text-center">
           Experience
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-10 sm:p-2">
-        <div className="border border-gray-100 shadow-md  p-6 flex flex-col justify-between hover:border-gray-400">
-            <img
-              src={Me}
-              alt="about-me"
-              className="rounded-lg shadow-lg object-cover w-full h-full"
-              style={{ maxHeight: "400px" }}
-            />
-          </div>
-          <div className="px-2 border bg-slate-200 border-blue-300 text-black rounded-lg hover:scale-105 transition-transform-300">
-            <h3 className="text-xl font-semibold mb-2">
+        <div className="gap-4 p-10 sm:p-2">
+          <div className="px-2 border bg-slate-800 text-gray-200 rounded-lg hover:scale-105 transition-transform-300">
+            <h3 className="text-xl font-semibold mb-2 mt-3">
               Deeplogic Tech Pvt Ltd, Remote, India
             </h3>
-            <p className="text-gray-600 mb-4 text-xs">
+            <p className="text-gray-400 mb-4 text-xs">
               June 2021 - Oct 2023
             </p>
-            <ul className="list-disc pl-6 font-serif">
+            <ul className="list-disc pl-6 ">
               <li>
                 Developed an in-house tool using Node.js for real-time
                 monitoring of database servers.
@@ -43,7 +35,7 @@ export default function Work() {
                 databases for optimal query performance.
               </li>
             </ul>
-            <p className="text-gray-600 mt-4 font-mono">
+            <p className="text-gray-400 mt-4 font-mono mb-3">
               Exposure: Node.js, JavaScript, Distributed RDBMS, SQL, Linux,
               Singlestore, MySQL, Kubernetes
             </p>
