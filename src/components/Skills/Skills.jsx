@@ -32,7 +32,7 @@ export default function Skills() {
         <div className="grid grid-cols-2 lg:grid-cols-4 text-gray-400">
         <div className="bg-slate-800 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
         <div className="font-mono">
-              <h3 className="text-xl font-semibold text-gray-200 mb-2">
+              <h3 className="text-xl font-semibold text-gray-200 mb-2 inline-block">
                 Language
               </h3>
               <p>
@@ -64,7 +64,7 @@ export default function Skills() {
           {/* Frameworks/Libraries */}
           <div className="bg-slate-800 shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
             <div className="font-mono">
-              <h3 className="text-xl font-semibold text-gray-200 mb-2">
+              <h3 className="text-xl font-semibold inline-block text-gray-200 mb-2">
                 Frameworks/Libraries
               </h3>
               <p>
@@ -81,7 +81,7 @@ export default function Skills() {
           {/* Databases/Cloud */}
           <div className="bg-slate-800  shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
             <div className="font-mono">
-              <h3 className="text-xl font-semibold text-gray-200 mb-2">
+              <h3 className="text-xl inline-block font-semibold text-gray-200 mb-2">
                 Databases/Cloud
               </h3>
               <p>
@@ -105,7 +105,7 @@ export default function Skills() {
           {/* Devops */}
           <div className="bg-slate-800  shadow-lg rounded-lg p-6 flex items-center hover:scale-105 transition duration-300">
             <div className="font-mono">
-              <h3 className="text-xl font-semibold text-gray-200 mb-2">
+              <h3 className="text-xl inline-block font-semibold text-gray-200 mb-2">
                 Devops
               </h3>
               <p><SiKubernetes className="text-blue-500 w-6 h-6 mr-2 inline-block" />Kubernetes</p>
