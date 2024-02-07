@@ -80,7 +80,7 @@ export default function Portfolio() {
             </div>
             <div className="flex justify-between text-sm font-mono text-blue-800">
               <a
-                href="https://github.com/roshank07/Interest-calculator-frontend"
+                href="https://github.com/roshank07/MERN-Interest-App"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
@@ -88,7 +88,7 @@ export default function Portfolio() {
                 GitHub Repo
               </a>
               <a
-                href="https://roshan-interest-calculator.netlify.app/"
+                href="https://interest-app.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
