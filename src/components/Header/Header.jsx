@@ -1,10 +1,7 @@
 import React from "react";
-import CallToAction from "./CallToAction";
-import Me from "../../assets/portfolio_me.png";
-import HeaderSocials from "./HeaderSocials";
 import { FiAward } from "react-icons/fi";
 import { GrProjects } from "react-icons/gr";
-import resume from "../../assets/Roshan_resume_feb.pdf";
+import resume from "../../assets/cv.pdf";
 
 export default function Header() {
   return (
@@ -14,25 +11,27 @@ export default function Header() {
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-2 text-center">
           Roshan Purbey
         </h1>
-        <h5 className="text-lg mb-4 flex justify-center">Full stack Developer</h5>
+        <h5 className="text-lg mb-4 flex justify-center">
+          Full stack Developer
+        </h5>
         <div className="flex justify-center mb-4 gap-2">
           <div className="ml-4  pt-2 pb-2">
-          <a
-            href={resume}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border rounded-sm p-2  hover:bg-blue-300 hover:scale-105 transform transition-all duration-300 ease-in-out"
-          >
-            Resume
-          </a>
+            <a
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border rounded-sm p-2  hover:bg-blue-300 hover:scale-105 transform transition-all duration-300 ease-in-out"
+            >
+              Resume
+            </a>
           </div>
           <div className="pt-2 pb-2">
-          <a
-            href="#contacts"
-            className="border-2 rounded-sm p-2 bg-blue-300  hover:scale-105 transform transition-all duration-300 ease-in-out"
-          >
-            Connect
-          </a>
+            <a
+              href="#contacts"
+              className="border-2 rounded-sm p-2 bg-blue-300  hover:scale-105 transform transition-all duration-300 ease-in-out"
+            >
+              Connect
+            </a>
           </div>
         </div>
       </div>
@@ -59,20 +58,23 @@ export default function Header() {
           </div>
         </div>
         <div className="p-3 mx-auto border border-transparent bg-slate-800 text-gray-200 rounded-lg hover:scale-105 transition-transform-300">
-        <div className="text-gray-100 sm:text-sm text-xs flex justify-center mb-4">
-              I'm Roshan K Purbey, a graduate of Electrical Engineering from IIT
-              Bhilai. My fascination with technology<br/> led me to pursue a career
-              in software engineering. With five years of programming
-              experience(College+Work),<br/> I embarked on a journey with a startup, honing my
-              skills across various domains. From optimizing <br/> backend
-              technologies like Singlesore and Node.js to delving into DevOps
-              with Kubernetes, Docker,<br/> Git, and Prometheus, I've embraced every
-              opportunity to expand my expertise. 
-              <br/><br/>
-              Now, I'm eager to transition into full-stack development, leveraging my diverse skill set to
-              drive innovation and<br/> make a meaningful impact in the tech
-              industry.
-            </div>
+          <div className="text-gray-100 sm:text-sm text-xs flex justify-center mb-4">
+            I'm Roshan K Purbey, a graduate of Electrical Engineering from IIT
+            Bhilai. My fascination with technology
+            <br /> led me to pursue a career in software engineering. With five
+            years of programming experience(College+Work),
+            <br /> I embarked on a journey with a startup, honing my skills
+            across various domains. From optimizing <br /> backend technologies
+            like Singlesore and Node.js to delving into DevOps with Kubernetes,
+            Docker,
+            <br /> Git, and Prometheus, I've embraced every opportunity to
+            expand my expertise.
+            <br />
+            <br />
+            Now, I'm eager to transition into full-stack development, leveraging
+            my diverse skill set to drive innovation and
+            <br /> make a meaningful impact in the tech industry.
+          </div>
         </div>
         <a href="#contacts" className="text-green-300 flex justify-center mt-2">
           Let's Talk
